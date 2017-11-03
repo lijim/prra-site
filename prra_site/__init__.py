@@ -8,7 +8,7 @@ def not_found(error):
     return render_template('404.html'), 404
 
 # registering the blueprints
-from prra-site.views import general
+from prra_site.views import general
 
 app.register_blueprint(general.mod)
 
