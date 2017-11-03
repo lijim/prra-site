@@ -36,7 +36,7 @@ pip install -r requirements.pip
 4. Set up the environment variables
 Use this command to set your FLASK_APP variable:
 ```
-export FLASK_APP=prra-site/__init__.py
+export FLASK_APP=prra_site/__init__.py
 ```
 (Shortcut to running this all the time: add it to your .bash_profile file)
 
