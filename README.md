@@ -32,3 +32,15 @@ pip install -r requirements.pip
 ```
 
 (See here for more help: https://docs.python.org/3/library/venv.html)
+
+4. Set up the environment variables
+Use this command to set your FLASK_APP variable:
+```
+export FLASK_APP=prra-site/__init__.py
+```
+(Shortcut to running this all the time: add it to your .bash_profile file)
+
+5. Run! 😃
+```
+flask run
+```
