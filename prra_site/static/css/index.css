@@ -1,7 +1,5 @@
 body {
-  background-color: #eee;
   margin: 0;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
 /* TOP SECTION / SECTIONAL CSS */
@@ -15,15 +13,11 @@ section.top-section h3 {
   margin: 0;
 }
 section.top-section .row {
-  min-height: 130px;
+  min-height: 150px;
 }
 
 section.top-section img.logo {
   margin: 4px;
-}
-section.darkblue {
-  background-color: #171649;
-  color: white;
 }
 .top-left-section {
   padding-top: 50px;
@@ -51,6 +45,45 @@ section.darkblue {
   left: 1em;
 }
 
+/* Menu section */
+section.menu-section {
+  background-color: #043669;
+}
+a.nav-link {
+  color: white;
+}
+a.nav-link:hover {
+  color: #829BB4;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 2rem !important;
+      padding-left: 0 !important;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 2rem !important;
+      padding-left: 0 !important;
+  }
+}
+.navbar-toggler {
+    color: white !important;
+  border-color: white !important;
+}
+.navbar-toggler-icon {
+  line-height: 30px;
+}
+.dropdown-menu {
+  background: #829BB4 !important;
+}
+.dropdown-item {
+  color: white !important;
+}
+.dropdown-item:hover {
+  color: #C0CDDA !important;
+  background-color: inherit !important;
+}
 /* PARALLAX EFFECTS / RESPONSIVE DESIGN */
 iframe.youtube {
   width: 370px;
@@ -94,7 +127,6 @@ iframe.youtube {
   }
 }
 
-
 .boats-parallax {
   position: relative;
 }
@@ -113,4 +145,10 @@ iframe.youtube {
   color: white;
   width: 100%;
   font-family: Futura;
+}
+
+/* footer */
+section.darkblue {
+  background-color: #171649;
+  color: white;
 }
